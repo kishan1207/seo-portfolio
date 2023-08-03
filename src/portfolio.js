@@ -26,29 +26,14 @@ const greeting = {
     "A dedicated SEO analyst driven by a passion for creating end-to-end strategies that cultivate sustainable and scalable online systems, aiming to make a significant impact on digital landscapes.",
   resumeLink:
     "https://drive.google.com/file/d/1yrj7OJ4iirUYIvMOo4uIE1y1bQ2GuJHt/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  {
-    name: "Github",
-    link: "https://github.com/ashutosh1919",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-  },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/ashutosh1919/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  },
-  {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
@@ -269,7 +254,7 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Internship",
   description:
     "I have worked with diverse organizations, utilizing my SEO expertise to enhance online visibility and drive organic growth. From strategic planning to technical optimizations, I have contributed to various aspects of SEO across different roles.",
   header_image_path: "experience.svg",
@@ -322,65 +307,76 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects encompass a diverse range of technologies and tools. I excel in creating innovative Data Science projects and deploying them to web applications using advanced cloud infrastructure.",
+    "Explore my SEO Analyst projects - innovative web apps leveraging advanced cloud tech for optimized online presence.",
   avatar_image_path: "projects_image.svg",
 };
 
-const publicationsHeader = {
-  title: "Publications",
-  description:
-    "I have contributed to and published several research papers and publications, showcasing my dedication to advancing knowledge and expertise in the field.",
-  avatar_image_path: "publications_image.svg",
-};
-
-const publications = {
-  data: [
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "AI and Its Impact on SEO",
-      createdAt: "2021-08-10T12:34:56Z",
-      description: "Research paper exploring the influence of Artificial Intelligence on Search Engine Optimization.",
-      url: "https://example.com/ai-impact-on-seo",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Emerging Trends in SEO",
-      createdAt: "2020-12-15T09:45:23Z",
-      description: "An analysis of the latest trends and techniques in the field of Search Engine Optimization.",
-      url: "https://example.com/emerging-trends-seo",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Optimizing for Voice Search",
-      createdAt: "2019-07-20T18:21:09Z",
-      description: "Examining strategies to optimize websites for voice search and conversational AI platforms.",
-      url: "https://example.com/optimizing-for-voice-search",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "SEO in the Mobile-First Era",
-      createdAt: "2018-05-02T15:10:32Z",
-      description: "A study of effective SEO practices in the age of mobile-first indexing.",
-      url: "https://example.com/seo-in-mobile-first-era",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Content Strategy for SEO Success",
-      createdAt: "2017-03-18T08:55:47Z",
-      description: "Exploring the role of content strategy in achieving SEO success and higher search rankings.",
-      url: "https://example.com/content-strategy-seo",
-    },
-  ],
-};
-
-
+const ProjectsData = [
+  {
+    name: "Wahha Design",
+    url: "",
+    description: "In this I am handling 18+ projects.\n Monthly Strategy- Technical Recommendations -E-A-T expertise - Target audience analysis - Content strategy,development, planning - Image optimization - Domain management and strategy - Log file analysis - DNS and CDN management - Analysis Keywords with Impression",
+    languages: [
+      {
+        "name": "Google Search Console",
+        "iconifyClass": "logos:google-search-console"
+      },
+      {
+        "name": " Semrush",
+        "iconifyClass": "simple-icons:semrush"
+      },
+      {
+        "name": "Google",
+        "iconifyClass": "devicon:google"
+      }
+    ]
+  },
+  {
+    name: "Tree Doctor USA",
+    url: "",
+    description: "- Website Structure - Page Recommendation - Technical Fixes - Track conversation from analytics - Indexing from search console - Content Management - Google Business Profile Optimization",
+    languages: [
+      {
+        "name": "Google Search Console",
+        "iconifyClass": "logos:google-search-console"
+      },
+      {
+        "name": " Semrush",
+        "iconifyClass": "simple-icons:semrush"
+      },
+      {
+        "name": "Google",
+        "iconifyClass": "devicon:google"
+      }
+    ]
+  },
+  {
+    name: "Denta Marketing",
+    url: "",
+    description: "- Technical On-site Audit - On Page Recommendation - Competitors Analysis - Niche wise keywords Improvement - GBP Profile Optimization",
+    languages: [
+      {
+        "name": " Semrush",
+        "iconifyClass": "simple-icons:semrush"
+      },
+      {
+        "name": "Google",
+        "iconifyClass": "devicon:google"
+      },
+       {
+        "name": "Google Search Console",
+        "iconifyClass": "logos:google-search-console"
+      },
+    ]
+  }
+]
 // Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "I am active on various social media platforms. Feel free to reach out to me, and I'll get back to you within 24 hours. I'm here to assist you with Machine Learning, Artificial Intelligence, React, Android, Cloud, and Open Source Development.",
+      "Engage with me across multiple social channels for prompt assistance.I'm your go-to resource for Machine Learning, Artificial Intelligence, React, Android, Cloud, and Open Source Development queries, ensuring a timely response within 24 hours.",
   },
   blogSection: {
     title: "Blogs",
@@ -418,7 +414,6 @@ export {
   certifications,
   experience,
   projectsHeader,
-  publicationsHeader,
-  publications,
+  ProjectsData,
   contactPageData,
 };

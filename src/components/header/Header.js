@@ -4,6 +4,7 @@ import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
+import { HashLink } from "react-router-hash-link";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -18,13 +19,12 @@ const onMouseOut = (event) => {
 class Header extends Component {
   render() {
     const theme = this.props.theme;
-    const link = settings.isSplash ? "/splash" : "home";
     return (
       <Fade top duration={1000} distance="20px">
         <SeoHeader />
         <div>
           <header className="header">
-            <NavLink to={link} tag={Link} className="logo">
+            <NavLink to={"/"} tag={Link} className="logo">
               <span className="logo-name" style={{ color: theme.text }}>
                 {greeting.logo_name}
               </span>
@@ -35,64 +35,64 @@ class Header extends Component {
             </label>
             <ul className="menu" style={{ backgroundColor: theme.body }}>
               <li>
-                <NavLink
-                  to="/home"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                <HashLink
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                  // example of custom scroll function using the scroll prop
+                  scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
+                  to={'#section-home'}
                 >
                   Home
-                </NavLink>
+                </HashLink>
               </li>
               <li>
-                <NavLink
-                  to="/education"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                <HashLink
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                  // example of custom scroll function using the scroll prop
+                  scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
+                  to={'#section-education'}
                 >
                   Education
-                </NavLink>
+                </HashLink>
               </li>
               <li>
-                <NavLink
-                  to="/experience"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                <HashLink
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                  // example of custom scroll function using the scroll prop
+                  scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
+                  to={'#section-skills'}
+                >
+                  Skills
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  style={{ color: theme.text }}
+                  // example of custom scroll function using the scroll prop
+                  scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
+                  to={'#section-experience'}
                 >
                   Experience
-                </NavLink>
+                </HashLink>
               </li>
               <li>
-                <NavLink
-                  to="/projects"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                <HashLink
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                  // example of custom scroll function using the scroll prop
+                  scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
+                  to={'#section-projects'}
                 >
                   Projects
-                </NavLink>
+                </HashLink>
               </li>
               <li>
-                <NavLink
-                  to="/contact"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                <HashLink
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
+                  // example of custom scroll function using the scroll prop
+                  scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
+                  to={'#section-contact'}
                 >
-                  Contact Me
-                </NavLink>
+                  Contact
+                </HashLink>
               </li>
             </ul>
           </header>

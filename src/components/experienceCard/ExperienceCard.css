@@ -88,14 +88,13 @@
 }
 
 .experience-card {
-  min-width: 350px;
-  /* height: 170px; */
+  width: 100%; /* Allow the card to take full width */
+  max-width: 450px; /* Set a maximum width to avoid stretching on larger screens */
   margin-bottom: 20px;
-  border-radius:10px;
+  border-radius: 10px;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   padding: 10px;
-  margin-left: 10px;
   -webkit-box-shadow: 4px 3px 20px -2px grey;
   -moz-box-shadow: 4px 3px 20px -2px grey;
   box-shadow: 4px 3px 20px -2px grey;
@@ -114,7 +113,9 @@
 
 .experience-card-logo-div {
   margin: 10px;
-  margin-top: -10px;
+  margin-top: -15px;
+  width: 70px; /* Match the width to the image width */
+  height: 70px; /* Match the height to the image height */
 }
 
 .experience-card-stepper {
@@ -137,10 +138,12 @@
 
 .experience-card-logo {
   width: 70px;
+  height: 70px; /* Set the height to maintain the aspect ratio of 1:1 (70x70) */
   -webkit-box-shadow: 4px 3px 20px -2px grey;
   -moz-box-shadow: 4px 3px 20px -2px grey;
   box-shadow: 4px 3px 20px -2px grey;
-  border-radius: 50px;
+  border-radius: 50%;
+  object-fit: fill; /* Maintain aspect ratio while covering the container */
 }
 
 .experience-card-title {
@@ -298,10 +301,6 @@ transition: all 0.3s ease-in-out 0s;
       flex-direction: column;
   }
 
-  .experience-card-logo {
-      width: 100px;
-  }
-
   .experience-card-heading-left {
       float: center;
       margin-left: auto;
@@ -341,4 +340,17 @@ transition: all 0.3s ease-in-out 0s;
       margin-right: 14px;
       text-align: justify;
   }
+}
+
+.experience-card-text {
+  flex: 1; /* Allow the text area to grow to take up remaining space */
+  margin-top: 10px;
+  white-space: normal;
+  overflow: hidden; /* Hide any overflowing text */
+  text-overflow: ellipsis; /* Add ellipsis for overflow */
+  word-wrap: break-word;
+  color: rgb(0, 0, 0,0.5);
+  text-align: justify;
+  font-size: medium;
+  font-family: "Google Sans Regular";
 }

@@ -47,15 +47,13 @@ class ExperienceCard extends Component {
 
                 </div>
               </div>
-              <div style={{ display: 'flex', justifyContent: 'flex-start', marginTop: 20 }}>
+              <div style={{ display: 'flex', justifyContent: 'flex-start', marginTop: 5 }}>
                 <div
-                  className="repo-description"
-                />
-                {experience["description"]}
+                  className="experience-card-text">
+                  {experience["description"]}
+                </div>
               </div>
-
             </div>
-
           </div>
         </Fade>
       </div>
