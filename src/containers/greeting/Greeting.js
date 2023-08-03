@@ -12,6 +12,9 @@ export default function Greeting(props) {
     <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
+          <div className="greeting-image-div">
+            <FeelingProud theme={theme} />
+          </div>
           <div className="greeting-text-div">
             <div>
               <h1 className="greeting-text" style={{ color: theme.text }}>
@@ -30,9 +33,6 @@ export default function Greeting(props) {
               </p>
               <SocialMedia theme={theme} />
             </div>
-          </div>
-          <div className="greeting-image-div">
-            <FeelingProud theme={theme} />
           </div>
         </div>
       </div>
