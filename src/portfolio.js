@@ -11,7 +11,7 @@ const seo = {
   description:
     "Dedicated professional specializing in crafting and implementing end-to-end SEO strategies that drive sustainable online growth and impactful results.",
   og: {
-    title: "Chandni Khadela Portfolio",
+    title: "Chandni Dave Portfolio",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
@@ -19,8 +19,8 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Chandni Khadela",
-  logo_name: "Chandni Khadela",
+  title: "Chandni Dave",
+  logo_name: "Chandni Dave",
   nickname: "SEO Analyst",
   subTitle:
     "A dedicated SEO analyst driven by a passion for creating end-to-end strategies that cultivate sustainable and scalable online systems, aiming to make a significant impact on digital landscapes.",
