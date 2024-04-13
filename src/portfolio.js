@@ -25,13 +25,13 @@ const greeting = {
   subTitle:
     "A dedicated SEO analyst driven by a passion for creating end-to-end strategies that cultivate sustainable and scalable online systems, aiming to make a significant impact on digital landscapes.",
   resumeLink:
-    "https://drive.google.com/file/d/1yrj7OJ4iirUYIvMOo4uIE1y1bQ2GuJHt/view?usp=sharing",
+    "https://drive.google.com/file/d/11kz1SJBBvAR2Wlvub2C-G0BDMjDX8ZHb/view",
 };
 
 const socialMediaLinks = [
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/chandni-dave-738261196",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -40,24 +40,6 @@ const socialMediaLinks = [
     link: "mailto:davechandni6666@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
-    name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
@@ -268,7 +250,7 @@ const experience = {
           company: "Adit Adv Pvt Ltd",
           company_url: "https://www.adit.com/",
           logo_path: "adit_logo.jpg",
-          duration: "Apr 2019 - June 2020",
+          duration: "Apr 2020 - June 2020",
           location: "Ahmedabad, Gujarat",
           description:
             "As a Jr. SEO Executive, I focused on optimizing on-page elements, executing off-site SEO strategies, performing link building, conducting keyword research, and analyzing competitors to improve website visibility and search rankings.",
@@ -279,7 +261,7 @@ const experience = {
           company: "AIS Technolabs Pvt Ltd",
           company_url: "https://www.aistechnolabs.com/",
           logo_path: "ais_logo.jpg",
-          duration: "June 2020 - Jul 2022",
+          duration: "June 2021 - Jul 2022",
           location: "Ahmedabad, Gujarat",
           description:
             "As a Sr. SEO Executive, I led content planning and strategy, analyzed competitors and target audiences, performed copywriting and SEO editing, managed on-page and off-page activities, provided website structure recommendations, and managed a team.",
@@ -290,7 +272,7 @@ const experience = {
           company: "E2M Solutions",
           company_url: "https://www.e2msolutions.com/",
           logo_path: "e2m_logo.jpg",
-          duration: "Aug 2022 - Present",
+          duration: "Oct 2022 - Present",
           location: "Ahmedabad, Gujarat",
           description:
             "In my current role as a Sr. SEO Analyst, I conduct technical SEO audits, recommend page content optimizations, manage on-page SEO activities, generate quarterly reports, optimize website and landing pages, communicate with clients, and formulate monthly SEO strategies.",
@@ -314,60 +296,21 @@ const projectsHeader = {
 const ProjectsData = [
   {
     name: "Wahha Design",
-    url: "",
+    url: "https://wahhadesign.com/",
     description: "In this I am handling 18+ projects.\n Monthly Strategy- Technical Recommendations -E-A-T expertise - Target audience analysis - Content strategy,development, planning - Image optimization - Domain management and strategy - Log file analysis - DNS and CDN management - Analysis Keywords with Impression",
-    languages: [
-      {
-        "name": "Google Search Console",
-        "iconifyClass": "logos:google-search-console"
-      },
-      {
-        "name": " Semrush",
-        "iconifyClass": "simple-icons:semrush"
-      },
-      {
-        "name": "Google",
-        "iconifyClass": "devicon:google"
-      }
-    ]
+    languages: []
   },
   {
     name: "Tree Doctor USA",
-    url: "",
+    url: "https://www.treedoctorusa.com/",
     description: "- Website Structure - Page Recommendation - Technical Fixes - Track conversation from analytics - Indexing from search console - Content Management - Google Business Profile Optimization",
-    languages: [
-      {
-        "name": "Google Search Console",
-        "iconifyClass": "logos:google-search-console"
-      },
-      {
-        "name": " Semrush",
-        "iconifyClass": "simple-icons:semrush"
-      },
-      {
-        "name": "Google",
-        "iconifyClass": "devicon:google"
-      }
-    ]
+    languages: []
   },
   {
     name: "Denta Marketing",
-    url: "",
+    url: "https://dentamarketing.com/",
     description: "- Technical On-site Audit - On Page Recommendation - Competitors Analysis - Niche wise keywords Improvement - GBP Profile Optimization",
-    languages: [
-      {
-        "name": " Semrush",
-        "iconifyClass": "simple-icons:semrush"
-      },
-      {
-        "name": "Google",
-        "iconifyClass": "devicon:google"
-      },
-       {
-        "name": "Google Search Console",
-        "iconifyClass": "logos:google-search-console"
-      },
-    ]
+    languages: []
   }
 ]
 // Contact Page
