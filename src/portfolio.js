@@ -190,15 +190,26 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Jr. SEO Executive",
-          company: "Adit Adv Pvt Ltd",
-          company_url: "https://www.adit.com/",
-          logo_path: "adit_logo.jpg",
-          duration: "Apr 2020 - June 2020",
+          title: "Full-Time Freelancer",
+          company: "Self-Employed",
+          company_url: "https://www.yourfreelancersite.com/",
+          logo_path: "freelance.avif",
+          duration: "July 2024 - Present",
+          location: "Remote",
+          description:
+            "As a Full-Time Freelancer SEO, I provide comprehensive SEO services including technical audits, content strategy development, on-page and off-page optimization, and SEO consultancy. I collaborate with clients from various industries to enhance their online presence, drive organic traffic, and improve search engine rankings through tailored SEO strategies and continuous performance monitoring.",
+          color: "#00aaff",
+        },
+        {
+          title: "Sr. SEO Analyst",
+          company: "E2M Solutions",
+          company_url: "https://www.e2msolutions.com/",
+          logo_path: "e2m_logo.jpg",
+          duration: "Oct 2022 - June 2024",
           location: "Ahmedabad, Gujarat",
           description:
-            "As a Jr. SEO Executive, I focused on optimizing on-page elements, executing off-site SEO strategies, performing link building, conducting keyword research, and analyzing competitors to improve website visibility and search rankings.",
-          color: "#0879bf",
+            "In my role as a Sr. SEO Analyst, I conducted technical SEO audits, recommended page content optimizations, managed on-page SEO activities, generated quarterly reports, optimized website and landing pages, communicated with clients, and formulated monthly SEO strategies.",
+          color: "#fc1f20",
         },
         {
           title: "Sr. SEO Executive",
@@ -212,17 +223,18 @@ const experience = {
           color: "#9b1578",
         },
         {
-          title: "Sr. SEO Analyst",
-          company: "E2M Solutions",
-          company_url: "https://www.e2msolutions.com/",
-          logo_path: "e2m_logo.jpg",
-          duration: "Oct 2022 - Present",
+          title: "Jr. SEO Executive",
+          company: "Adit Adv Pvt Ltd",
+          company_url: "https://www.adit.com/",
+          logo_path: "adit_logo.jpg",
+          duration: "Apr 2020 - June 2020",
           location: "Ahmedabad, Gujarat",
           description:
-            "In my current role as a Sr. SEO Analyst, I conduct technical SEO audits, recommend page content optimizations, manage on-page SEO activities, generate quarterly reports, optimize website and landing pages, communicate with clients, and formulate monthly SEO strategies.",
-          color: "#fc1f20",
+            "As a Jr. SEO Executive, I focused on optimizing on-page elements, executing off-site SEO strategies, performing link building, conducting keyword research, and analyzing competitors to improve website visibility and search rankings.",
+          color: "#0879bf",
         },
-      ],
+      ]
+
     },
     // ... (rest of the sections, internships, and volunteerships remain unchanged)
   ],
