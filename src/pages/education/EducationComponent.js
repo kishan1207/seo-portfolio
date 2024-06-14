@@ -10,15 +10,15 @@ class Education extends Component {
     return (
       <div className="basic-education">
         <Fade bottom duration={2000} distance="40px">
-          <div className="heading-div">
-            <div className="heading-img-div">
-              <EducationImg theme={theme} />
-            </div>
+          <div className="heading-div section-wrapper">
             <div className="heading-text-div">
               <h1 className="heading-text" style={{ color: theme.text }}>
                 Education
               </h1>
-            <Educations theme={this.props.theme} />
+              <Educations theme={this.props.theme} />
+            </div>
+            <div className="heading-img-div">
+              <EducationImg theme={theme} />
             </div>
           </div>
         </Fade>

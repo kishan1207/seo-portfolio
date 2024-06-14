@@ -11,9 +11,9 @@ const seo = {
   description:
     "Dedicated professional specializing in crafting and implementing end-to-end SEO strategies that drive sustainable online growth and impactful results.",
   og: {
-    title: "Chandni Dave Portfolio",
+    title: "Chandni's Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://chandni-dave.web.app/",
   },
 };
 
@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Chandni Dave",
   logo_name: "Chandni Dave",
-  nickname: "SEO Analyst",
+  nickname: "Expert SEO Strategist",
   subTitle:
     "A dedicated SEO analyst driven by a passion for creating end-to-end strategies that cultivate sustainable and scalable online systems, aiming to make a significant impact on digital landscapes.",
   resumeLink:
@@ -88,62 +88,6 @@ const skills = {
     // ... other sections
   ],
 };
-
-
-// Education Page
-const competitiveSites = {
-  competitiveSites: [
-    {
-      siteName: "SEOlympics",
-      iconifyClassname: "simple-icons:seo",
-      style: {
-        color: "#D00000",
-      },
-      profileLink: "https://www.seolympics.com/layman_brother/",
-    },
-    {
-      siteName: "SearchRank Masters",
-      iconifyClassname: "simple-icons:searchengineland",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.searchrankmasters.com/layman_brother",
-    },
-    {
-      siteName: "LinkBuilding Arena",
-      iconifyClassname: "simple-icons:linkbuilding",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.linkbuildingarena.com/ashutosh_1919",
-    },
-    {
-      siteName: "SEOforces",
-      iconifyClassname: "simple-icons:seo",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://seoforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "SEOEpic",
-      iconifyClassname: "simple-icons:seo",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.seoepic.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle SEO Challenges",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/seo_champion",
-    },
-  ],
-};
-
 
 const degrees = {
   degrees: [
@@ -317,7 +261,7 @@ const ProjectsData = [
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "",
     description:
       "Engage with me across multiple social channels for prompt assistance.I'm your go-to resource for Machine Learning, Artificial Intelligence, React, Android, Cloud, and Open Source Development queries, ensuring a timely response within 24 hours.",
   },
@@ -325,7 +269,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    link: "",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
@@ -352,7 +296,6 @@ export {
   greeting,
   socialMediaLinks,
   skills,
-  competitiveSites,
   degrees,
   certifications,
   experience,

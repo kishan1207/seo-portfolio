@@ -5,15 +5,16 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
+import animationData from '../../assests/lotties/outbound-marketing.json';
 
 export default function Greeting(props) {
   const theme = props.theme;
   return (
     <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
-        <div className="greeting-main">
+        <div className="greeting-main section-wrapper">
           <div className="greeting-image-div">
-            <FeelingProud theme={theme} />
+            <FeelingProud animationData={animationData} />
           </div>
           <div className="greeting-text-div">
             <div>

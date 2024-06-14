@@ -4,9 +4,15 @@ import "./ExperienceAccordion.css";
 
 class ExperienceAccordion extends Component {
   render() {
-    const theme = this.props.theme;
+    const { theme, title } = this.props;
     return (
       <div className="experience-accord">
+        <h1
+          className="experience-heading-text"
+          style={{ color: theme.text }}
+        >
+          {title}
+        </h1>
         {this.props.sections.map((section) => {
           return (
             section["experiences"].map((experience, index) => {
