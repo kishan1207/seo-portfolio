@@ -251,21 +251,9 @@ const projectsHeader = {
 
 const ProjectsData = [
   {
-    name: "Wahha Design",
-    url: "https://wahhadesign.com/",
-    description: "In this I am handling 18+ projects.\n Monthly Strategy- Technical Recommendations -E-A-T expertise - Target audience analysis - Content strategy,development, planning - Image optimization - Domain management and strategy - Log file analysis - DNS and CDN management - Analysis Keywords with Impression",
-    languages: []
-  },
-  {
     name: "Tree Doctor USA",
     url: "https://www.treedoctorusa.com/",
     description: "- Website Structure - Page Recommendation - Technical Fixes - Track conversation from analytics - Indexing from search console - Content Management - Google Business Profile Optimization",
-    languages: []
-  },
-  {
-    name: "Denta Marketing",
-    url: "https://dentamarketing.com/",
-    description: "- Technical On-site Audit - On Page Recommendation - Competitors Analysis - Niche wise keywords Improvement - GBP Profile Optimization",
     languages: []
   }
 ]
